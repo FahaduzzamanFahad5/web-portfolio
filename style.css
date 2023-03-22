@@ -8,10 +8,13 @@ h1{
     font-size: 50px;
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 .name-highlight{
     color: orange;
+}
+h3{
+    color: rgb(240, 173, 48);
 }
 .half-width{
     width: 40%;
@@ -26,6 +29,12 @@ h2{
 .topcover{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.experience-area{
+    background-image: url(images/bottom-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   background-size: 70px;
 }
 section{
     height: 500px;
@@ -45,4 +54,23 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     background-size: 8%;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+}
+#full-stack{
+    border-left: 5px solid ;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#junior-dev{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+#footer{
+    text-align: center;
+    font-size: 12px;
 }
